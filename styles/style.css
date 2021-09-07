@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    transition: .3 ease;
+}
+header{
+    min-height: 300px;
+    background:url('../assets/images/morning1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+   border:1px solid red;
+}
